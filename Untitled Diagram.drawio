@@ -1,9 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T00:51:02.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.7" etag="MSC8BQk7fiBGlmzNt7kx" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T01:09:18.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Ng0hPNq_uaKaOpncVtbi" version="21.2.7" type="github">
   <diagram name="Page-1" id="qb3ecteY6efv2zFavxVo">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ag5z5zgepF-gHEqWH--_-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-37" target="ag5z5zgepF-gHEqWH--_-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-37" target="ag5z5zgepF-gHEqWH--_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-37" target="ag5z5zgepF-gHEqWH--_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-2" target="ag5z5zgepF-gHEqWH--_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-2" value="monthly_report.py trigger module API total_output.py" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5" y="160" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-3" target="ag5z5zgepF-gHEqWH--_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-3" value="Check last_month" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-5" target="ag5z5zgepF-gHEqWH--_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-5" value="Check workday in last_month" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="35" y="320" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-6" target="ag5z5zgepF-gHEqWH--_-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="500" />
+              <mxPoint x="400" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-6" value="Get total output based&lt;br&gt;on last_month" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="5" y="400" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-7" target="ag5z5zgepF-gHEqWH--_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-7" value="monthly_report.py trigger module API total_stoptime.py" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="160" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-8" target="ag5z5zgepF-gHEqWH--_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-8" value="Check last_month" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-9" target="ag5z5zgepF-gHEqWH--_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-9" value="Check workday in last_month" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="320" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-11" target="ag5z5zgepF-gHEqWH--_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-11" value="monthly_report.py trigger module API total_stop_cause_by_jig.py" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="565" y="160" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-12" target="ag5z5zgepF-gHEqWH--_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-12" value="Check last_month" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-13" target="ag5z5zgepF-gHEqWH--_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-13" value="Check workday in last_month" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="595" y="320" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-15" target="ag5z5zgepF-gHEqWH--_-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-15" value="Get total stop time based&lt;br&gt;on last_month" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="285" y="400" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-16" target="ag5z5zgepF-gHEqWH--_-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="500" />
+              <mxPoint x="400" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-16" value="Get total stop cause by jig&lt;br&gt;based on last_month" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="565" y="400" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-31" target="ag5z5zgepF-gHEqWH--_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-31" value="Create excel file that contain, total output and total stop cause by jig based on last_month" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="260" y="522" width="280" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ag5z5zgepF-gHEqWH--_-35" target="ag5z5zgepF-gHEqWH--_-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-35" value="Email system" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-37" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355" y="50" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5z5zgepF-gHEqWH--_-38" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
