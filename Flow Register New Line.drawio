@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T09:42:30.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.0" etag="O_RluNx8x1jP5BSmGjJC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T09:54:43.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="71wIRCx3ZVHnCmGpg6Ow" version="21.5.0" type="github">
   <diagram name="Page-1" id="hiKW9OneHqPQTSh_ymxS">
-    <mxGraphModel>
+    <mxGraphModel dx="574" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YPII3gAo9mIys5MfFpnn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPII3gAo9mIys5MfFpnn-2" target="YPII3gAo9mIys5MfFpnn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-2" value="Stop services:&lt;br&gt;1. main.py&lt;br&gt;2. reports&lt;br&gt;3. process.py&lt;br&gt;and all related to payload, except inject_payload.py" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="120" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YPII3gAo9mIys5MfFpnn-3" target="YPII3gAo9mIys5MfFpnn-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="280" />
+              <mxPoint x="710" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPII3gAo9mIys5MfFpnn-3" target="YPII3gAo9mIys5MfFpnn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-3" value="Is it stopped?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPII3gAo9mIys5MfFpnn-7" target="YPII3gAo9mIys5MfFpnn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-7" value="Create migration table file -&amp;gt; iot-web/database/migrations&lt;br&gt;Data must be include file done and pending and&amp;nbsp;&lt;br&gt;match file name with class name and it&#39;s component" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="318" y="360" width="465" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPII3gAo9mIys5MfFpnn-9" target="YPII3gAo9mIys5MfFpnn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-9" value="It is conform?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPII3gAo9mIys5MfFpnn-19" target="YPII3gAo9mIys5MfFpnn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-19" value="in terminal, directory iot-data-visualization&lt;br&gt;execute php artisan migrate" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="405" y="640" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-21" value="Process running well?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="475" y="760" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YPII3gAo9mIys5MfFpnn-23" target="YPII3gAo9mIys5MfFpnn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YPII3gAo9mIys5MfFpnn-23" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
