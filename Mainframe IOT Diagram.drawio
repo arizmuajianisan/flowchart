@@ -1,9 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T03:06:48.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="dkgBpzkOSl9M8TPMU9ma" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T03:18:57.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="j1Y5RBeE5q2-oWwhcg1g" version="21.6.6" type="github">
   <diagram name="Page-1" id="_eOM6pkb_bDxfX7_9ofI">
-    <mxGraphModel>
+    <mxGraphModel dx="1318" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-1" value="IOT" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-2" value="Assembly" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-3" value="Molding" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-5" value="Plating" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="870" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v46nnLR4Rg1XA6qJ6uK9-16" target="v46nnLR4Rg1XA6qJ6uK9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-16" value="Preventive Maintenance" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-17" value="Machine Efficiency / Productivity" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-19" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Shot Control&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Digitalizaiton Spare Part Input&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Alarm Change Spare Parts&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-20" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="v46nnLR4Rg1XA6qJ6uK9-19">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v46nnLR4Rg1XA6qJ6uK9-23" target="v46nnLR4Rg1XA6qJ6uK9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-23" value="Quality Record" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-24" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Scrap Report&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-25" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="v46nnLR4Rg1XA6qJ6uK9-24">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-27" value="Kakeibo (Profit and Loss Calculation)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-28" value="Material Lot Trace" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v46nnLR4Rg1XA6qJ6uK9-30" target="v46nnLR4Rg1XA6qJ6uK9-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-30" value="Preventive Maintenance" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-31" value="Machine Efficiency / Productivity" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-32" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Shot Control&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Digitalizaiton Spare Part Input&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Alarm Change Spare Parts&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="330" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-33" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="v46nnLR4Rg1XA6qJ6uK9-32">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v46nnLR4Rg1XA6qJ6uK9-35" target="v46nnLR4Rg1XA6qJ6uK9-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-35" value="Quality Record" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-36" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Scrap Report&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="490" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-37" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="v46nnLR4Rg1XA6qJ6uK9-36">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-38" value="Process Parameter" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-39" value="Material Lot Trace" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="720" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-40" value="Kakeibo (Profit and Loss Calculation)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v46nnLR4Rg1XA6qJ6uK9-42" target="v46nnLR4Rg1XA6qJ6uK9-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-42" value="Preventive Maintenance" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="280" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-43" value="Machine Efficiency / Productivity" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="200" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-44" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Shot Control&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Digitalizaiton Spare Part Input&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Alarm Change Spare Parts&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="330" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-45" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="v46nnLR4Rg1XA6qJ6uK9-44">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v46nnLR4Rg1XA6qJ6uK9-47" target="v46nnLR4Rg1XA6qJ6uK9-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-47" value="Quality Record" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="440" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-48" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Scrap Report&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="490" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-49" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="v46nnLR4Rg1XA6qJ6uK9-48">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-50" value="Process Parameter" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="560" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-51" value="Material Lot Trace" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="720" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v46nnLR4Rg1XA6qJ6uK9-52" value="Kakeibo (Profit and Loss Calculation)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="640" width="240" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
