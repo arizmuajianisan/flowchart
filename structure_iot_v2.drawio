@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T04:28:20.727Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="H7HDrzgswwtebMOBdfsx" version="22.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T04:33:39.444Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qeOCyLOA9YUBQTPKDXBX" version="22.1.12" type="github">
   <diagram name="Page-1" id="UAp81h3L45RcLqznb5Cl">
     <mxGraphModel dx="1509" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,11 +104,33 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-53" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="50" y="870" width="430" height="190" as="geometry" />
+        <mxCell id="YYW5yUekanyOZ95xu2rr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYW5yUekanyOZ95xu2rr-10" target="YYW5yUekanyOZ95xu2rr-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-49" value="" style="group" vertex="1" connectable="0" parent="YYW5yUekanyOZ95xu2rr-53">
-          <mxGeometry x="30" y="40" width="380" height="130" as="geometry" />
+        <mxCell id="YYW5yUekanyOZ95xu2rr-63" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1300" y="350" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-57" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Machine Molding&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Machine 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Machine 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Machine ~n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-63">
+          <mxGeometry width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-58" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-57">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-61" value="IP address start from 27.78.10.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="YYW5yUekanyOZ95xu2rr-63">
+          <mxGeometry y="100" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYW5yUekanyOZ95xu2rr-15" target="YYW5yUekanyOZ95xu2rr-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-76" value="Line connected to system" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="860" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-49" value="" style="group" vertex="1" connectable="0" parent="YYW5yUekanyOZ95xu2rr-76">
+          <mxGeometry x="40" y="50" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="YYW5yUekanyOZ95xu2rr-35" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Line Assembly 01&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-49">
           <mxGeometry width="180" height="90" as="geometry" />
@@ -129,22 +151,36 @@
         <mxCell id="YYW5yUekanyOZ95xu2rr-48" value="IP address start from 27.78.10.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="YYW5yUekanyOZ95xu2rr-49">
           <mxGeometry y="100" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=none;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-53">
-          <mxGeometry width="430" height="190" as="geometry" />
+        <mxCell id="YYW5yUekanyOZ95xu2rr-75" value="" style="swimlane;startSize=0;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-76">
+          <mxGeometry width="460" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYW5yUekanyOZ95xu2rr-10" target="YYW5yUekanyOZ95xu2rr-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YYW5yUekanyOZ95xu2rr-77" value="Machine connected to the system" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1144" y="850" width="510" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-57" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Machine Molding&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Machine 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Machine 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Machine ~n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="430" width="180" height="90" as="geometry" />
+        <mxCell id="YYW5yUekanyOZ95xu2rr-68" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Line Assembly 01&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-77">
+          <mxGeometry x="60" y="55" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-58" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-57">
+        <mxCell id="YYW5yUekanyOZ95xu2rr-69" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-68">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-61" value="IP address start from 27.78.10.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="1">
-          <mxGeometry x="1280" y="530" width="190" height="30" as="geometry" />
+        <mxCell id="YYW5yUekanyOZ95xu2rr-70" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Line Assembly ~n&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-77">
+          <mxGeometry x="260" y="55" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-71" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-70">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-72" value="IP address start from 27.78.10.1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="YYW5yUekanyOZ95xu2rr-77">
+          <mxGeometry x="60" y="155" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-74" value="" style="swimlane;startSize=0;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-77">
+          <mxGeometry width="510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YYW5yUekanyOZ95xu2rr-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYW5yUekanyOZ95xu2rr-24" target="YYW5yUekanyOZ95xu2rr-74">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
