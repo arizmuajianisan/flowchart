@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T04:33:39.444Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qeOCyLOA9YUBQTPKDXBX" version="22.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T04:36:30.610Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8LC9NgUTzvE8_tiW-pvl" version="22.1.12" type="github">
   <diagram name="Page-1" id="UAp81h3L45RcLqznb5Cl">
-    <mxGraphModel dx="1509" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="869" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="YYW5yUekanyOZ95xu2rr-15" value="MQTT {1883:70002}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-14">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-16" value="Node-red {1880:20002}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-14">
+        <mxCell id="YYW5yUekanyOZ95xu2rr-16" value="Node-red {1880:15011}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-14">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YYW5yUekanyOZ95xu2rr-17" value="InfluxDb {8086:12011}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-14">
@@ -58,13 +58,13 @@
         <mxCell id="YYW5yUekanyOZ95xu2rr-21" value="IOT-Plating" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="660" width="140" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-22" value="Django {8000: 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-21">
+        <mxCell id="YYW5yUekanyOZ95xu2rr-22" value="Django {8000:11011}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-21">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-23" value="MySQL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-21">
+        <mxCell id="YYW5yUekanyOZ95xu2rr-23" value="MySQL {3306:14012}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-21">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-24" value="Node-red" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-21">
+        <mxCell id="YYW5yUekanyOZ95xu2rr-24" value="Node-red {1880:15012}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-21">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YYW5yUekanyOZ95xu2rr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYW5yUekanyOZ95xu2rr-26" target="YYW5yUekanyOZ95xu2rr-27">
@@ -157,7 +157,7 @@
         <mxCell id="YYW5yUekanyOZ95xu2rr-77" value="Machine connected to the system" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1144" y="850" width="510" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-68" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Line Assembly 01&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-77">
+        <mxCell id="YYW5yUekanyOZ95xu2rr-68" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Machine 01&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Parameter 01&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Parameter 02&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Parameter ~n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-77">
           <mxGeometry x="60" y="55" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YYW5yUekanyOZ95xu2rr-69" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-68">
@@ -165,7 +165,7 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YYW5yUekanyOZ95xu2rr-70" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Line Assembly ~n&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig 2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Jig n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-77">
+        <mxCell id="YYW5yUekanyOZ95xu2rr-70" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Machine ~n&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Parameter 01&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Parameter 02&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Parameter ~n&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-77">
           <mxGeometry x="260" y="55" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YYW5yUekanyOZ95xu2rr-71" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YYW5yUekanyOZ95xu2rr-70">
